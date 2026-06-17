@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:
+    -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+/* CodeMirror 占满容器高度 */
+.cm-editor {
+  height: 100%;
+}
+.cm-scroller {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.7;
+}
